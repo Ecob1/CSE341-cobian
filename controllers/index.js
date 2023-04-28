@@ -6,5 +6,4 @@ const awesomeFunction = (req, res, next) => {
 const returnAnFunction = (req, res, next) => {
     res.json('Return awesome person');
 };
-
 module.exports = { awesomeFunction, returnAnFunction };
