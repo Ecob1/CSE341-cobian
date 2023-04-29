@@ -6,6 +6,6 @@ routes.get('/', myController.awesomeFunction);
 
 routes.get('/awesome', myController.returnAnFunction);
 routes.get('/getAll', contactController.getAllContact);
-routes.get('/getSingle', contactController.getSingle);
+routes.get('/getSingleName', contactController.getSingle);
 
 module.exports = routes;
